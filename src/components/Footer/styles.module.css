@@ -1,0 +1,42 @@
+/*
+You do not need to worry about .error {} colliding with any other `.css` or
+`.module.css` files!
+*/
+
+.footer {
+  padding-top: 4.5rem !important;
+  padding: 0px 0px 55px!important;
+}
+
+.textUsContainer {
+  flex-direction: column !important;
+  padding-bottom: 68px !important;
+  margin-bottom: 42px !important;
+}
+
+.textUs {
+  color: var(--black-one-off) !important;
+  font-family: Graphik Wide !important;
+  font-size: 55px !important;
+  font-style: normal !important;
+  line-height: normal !important;
+}
+
+/* Mobile */
+@media only screen and (max-width: 768px) {
+  .textUsContainer {
+    flex-direction: column !important;
+    padding-bottom: 40px !important;
+    margin-bottom: 57px !important;
+  }
+
+  .textUs {
+    font-size: 35px !important;
+    white-space: nowrap !important;
+    text-align: center !important;
+  }
+
+  .footer {
+    padding: 0px 0px 55px !important;
+  }
+}

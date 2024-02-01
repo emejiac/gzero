@@ -1,0 +1,48 @@
+.footerColumnTitle {
+  color: var(--black-one-off) !important;
+  font-family: Mint Grotesk Display !important;
+  font-size: 15px !important;
+  font-style: normal !important;
+  line-height: 16px !important; /* 106.667% */
+  letter-spacing: 0 !important;
+  margin-bottom: 15px !important;
+}
+
+.footerColumnLink {
+  color: #666 !important;
+  font-family: Mint Grotesk Display Light !important;
+  font-size: 12px !important;
+  font-style: normal !important;
+  line-height: 16px !important; /* 133.333% */
+  margin-bottom: 10px !important;
+}
+
+.mainFooterLinkCopyRight {
+  color: var(--black-one-off) !important;
+  font-family: Nanum Gothic !important;
+  font-size: 12px !important;
+  font-style: normal !important;
+  line-height: 16px !important; /* 133.333% */
+  white-space: nowrap !important;
+}
+
+.mainFooterLink {
+  color: var(--black-one-off) !important;
+  font-family: Mint Grotesk Display !important;
+  font-size: 12px !important;
+  font-style: normal !important;
+  line-height: 16px !important; /* 133.333% */
+  white-space: nowrap !important;
+}
+
+.footerInnerMenu {
+  color: var(--black-one-off) !important;
+  font-family: Mint Grotesk Display !important;
+  font-size: 12px !important;
+  font-style: normal !important;
+  line-height: 16px !important; /* 133.333% */
+}
+
+.tar {
+  text-align: right;
+}

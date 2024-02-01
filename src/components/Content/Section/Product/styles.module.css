@@ -1,0 +1,42 @@
+/*
+You do not need to worry about .error {} colliding with any other `.css` or
+`.module.css` files!
+*/
+
+.seeAllCollectionLink {
+  text-align: right !important;
+  margin-top: 95px !important;
+  color: var(--black-one-off) !important;
+  font-family: Graphik Wide !important;
+  font-size: 26px !important;
+  font-style: normal !important;
+  line-height: normal !important;
+  text-decoration-line: underline !important;
+}
+
+.seeAllCollectionLink > span {
+  color: var(--black-one-off) !important;
+  font-family: Graphik Wide Semibold Italic !important;
+  font-size: 26px !important;
+  font-style: italic !important;
+  line-height: normal !important;
+  text-decoration-line: underline !important;
+}
+
+/* Mobile */
+@media only screen and (max-width: 768px) {
+  .seeAllCollectionLink {
+    font-size: 23px !important;
+    text-align: center !important;
+    margin-top: 96px !important;
+  }
+  .seeAllCollectionLink > span {
+    font-size: 23px !important;
+  }
+}
+@media only screen and (min-width: 769px) {
+  .seeAllCollectionLink {
+    margin-left: auto !important;
+    margin-right: 0 !important;
+  }
+}

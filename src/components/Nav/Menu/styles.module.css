@@ -1,0 +1,12 @@
+/*
+You do not need to worry about .error {} colliding with any other `.css` or
+`.module.css` files!
+*/
+.links {
+  color: var(--white-one-off) !important;
+  font-family: Mint Grotesk Display Light !important;
+  font-size: 18px !important;
+  font-style: normal !important;
+  line-height: normal !important;
+  text-align: center !important;
+}

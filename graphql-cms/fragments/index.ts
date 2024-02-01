@@ -1,0 +1,7 @@
+export { RECURSO_FRAGMENT } from './recurso'
+export { NAVIGATION_BAR_FRAGMENT } from './navigation'
+export { PAGINA_FRAGMENT } from './pagina'
+export { MENU_FRAGMENT } from './menu'
+export { SECCION_FRAGMENT } from './seccion'
+export { BANNER_FRAGMENT } from './banner'
+export { CONFIGURACION_FRAGMENT } from './configuracion'

@@ -1,0 +1,14 @@
+/*
+You do not need to worry about .error {} colliding with any other `.css` or
+`.module.css` files!
+*/
+.cust_img {
+  object-position: center;
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+}
+
+/* Mobile */
+@media only screen and (max-width: 768px) {
+}

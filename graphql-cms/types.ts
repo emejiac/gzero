@@ -1,0 +1,7 @@
+export type { IRecurso } from './fragments/recurso'
+export type { ISeccion } from './fragments/seccion'
+export type { IBanner } from './fragments/banner'
+export type { INavigationBar } from './fragments/navigation'
+export type { IPagina } from './fragments/pagina'
+export type { IMenu, IMenuLink } from './fragments/menu'
+export type { IConfiguracion } from './fragments/configuracion'

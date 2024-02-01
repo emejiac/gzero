@@ -1,0 +1,179 @@
+/*
+You do not need to worry about .error {} colliding with any other `.css` or
+`.module.css` files!
+*/
+
+.klaviyo_form_cs {
+  padding-right: 99px !important;
+}
+
+/* title */
+.klaviyo_form_cs
+  > *
+  [data-testid='form-row']:nth-child(1)
+  > *
+  [style='font-weight: bold;'] {
+  color: #0c0c0c !important;
+  font-family: Graphik Wide !important;
+  font-size: 20px !important;
+  font-style: normal !important;
+  line-height: 16px !important;
+  white-space: nowrap;
+}
+
+.klaviyo_form_cs
+  > *
+  [data-testid='form-row']:nth-child(1)
+  > *
+  [style='font-style: italic;'] {
+  color: #0c0c0c !important;
+  font-family: Graphik Wide Semibold Italic !important;
+  font-size: 20px !important;
+  line-height: 16px !important;
+}
+
+/* css input email */
+.klaviyo_form_cs > * [data-testid='form-row']:nth-child(2) > div > div > input {
+  border: 1px solid black !important;
+}
+
+.klaviyo_form_cs
+  > *
+  [data-testid='form-row']:nth-child(2)
+  > div
+  > div
+  > input::placeholder {
+  color: #000 !important;
+  font-family: Mint Grotesk Display Light !important;
+  font-size: 12px !important;
+  font-style: normal !important;
+  line-height: normal !important;
+  letter-spacing: normal !important;
+}
+
+.klaviyo_form_cs
+  > *
+  [data-testid='form-row']:nth-child(2)
+  > div:nth-child(1)
+  > div
+  > input:hover {
+  display: block !important;
+  position: relative !important;
+  border: 1px solid black !important;
+}
+
+.klaviyo_form_cs > * [data-testid='form-row']:nth-child(2) > div:nth-child(2) {
+  height: 100% !important;
+  z-index: 9 !important;
+  flex-flow: column !important;
+  text-align: right !important;
+  justify-content: center !important;
+  position: absolute !important;
+  right: 0;
+}
+
+.klaviyo_form_cs
+  > *
+  [data-testid='form-row']:nth-child(2)
+  > div:nth-child(2)
+  > button {
+  margin-top: -16px !important;
+  color: #e3e3e3 !important;
+  text-align: center !important;
+  font-family: Mint Grotesk Display !important;
+  font-size: 15px !important;
+  font-style: normal !important;
+  line-height: normal !important;
+  letter-spacing: normal !important;
+}
+
+.klaviyo_form_cs
+  > *
+  [data-testid='form-row']:nth-child(3)
+  > div
+  > div
+  > div
+  > div
+  > label
+  > div {
+  color: var(--black-one-off) !important;
+  font-family: Mint Grotesk Display !important;
+  font-size: 11px !important;
+  font-style: normal !important;
+  line-height: 16px !important;
+}
+
+.klaviyo_form_cs > * [data-testid='form-row']:nth-child(3) > div:nth-child(1) {
+  max-width: 7% !important;
+}
+
+.klaviyo_form_cs
+  > *
+  [data-testid='form-row']:nth-child(3)
+  > div:nth-child(2)
+  > div
+  > p {
+  color: var(--black-one-off) !important;
+  font-family: Mint Grotesk Display Light !important;
+  font-size: 11px !important;
+  font-style: normal !important;
+  line-height: 16px !important;
+  text-decoration: none !important;
+  text-align: left !important;
+  text-align-last: center !important;
+  width: fit-content !important;
+}
+
+.klaviyo_form_cs
+  > *
+  [data-testid='form-row']:nth-child(3)
+  > div:nth-child(2)
+  > div
+  > p
+  > span {
+  color: var(--black-one-off) !important;
+  font-family: Mint Grotesk Display !important;
+  font-size: 11px !important;
+  font-style: normal !important;
+  line-height: 16px !important;
+  text-decoration: none !important;
+}
+
+.klaviyo_form_cs
+  > *
+  [data-testid='form-row']:nth-child(3)
+  > div:nth-child(2)
+  > div
+  > p
+  > span
+  a {
+  text-decoration: none !important;
+}
+
+@media only screen and (max-width: 768px) {
+  .klaviyo_form_cs {
+    padding-right: 0px !important;
+  }
+
+  .klaviyo_form_cs
+    > *
+    [data-testid='form-row']:nth-child(3)
+    > div:nth-child(1) {
+    padding: 0px 0px 0px 0px !important;
+  }
+
+  .klaviyo_form_cs
+    > *
+    [data-testid='form-row']:nth-child(3)
+    > div:nth-child(1)
+    rect {
+    width: 11px !important;
+    height: 11px !important;
+  }
+}
+@media screen and (max-width: 590px){
+  .klaviyo_form_cs {
+    max-width: 327px;
+    margin: auto;
+  }
+}

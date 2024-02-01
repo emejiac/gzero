@@ -1,0 +1,11 @@
+.navBar {
+  background-color: var(--blanco);
+  width: 100%;
+  position: fixed;
+  top: auto;
+  z-index: 100;
+  color: var(--white-one-off);
+  margin: 0;
+  padding: 0;
+  border-bottom: solid 1px black;
+}

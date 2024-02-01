@@ -1,0 +1,46 @@
+{
+  "name": "contentful-react-starter",
+  "version": "0.1.0",
+  "dependencies": {
+    "@contentful/f36-spinner": "^4.25.1",
+    "@contentful/rich-text-react-renderer": "^15.19.3",
+    "@emotion/react": "^11.11.3",
+    "@emotion/styled": "^11.11.0",
+    "@mdx-js/react": "^3.0.0",
+    "@mui/system": "^5.15.6",
+    "@next/bundle-analyzer": "^14.0.4",
+    "@theme-ui/mdx": "^0.16.1",
+    "contentful": "^10.6.16",
+    "contentful-import": "^8.5.23",
+    "dotenv": "^16.3.1",
+    "gatsby-plugin-theme-ui": "^0.16.1",
+    "jsx": "^0.9.89",
+    "next": "^14.0.4",
+    "next-sitemap": "^4.2.3",
+    "path": "^0.12.7",
+    "react": "^18.2.0",
+    "react-device-detect": "^2.2.3",
+    "react-dom": "^18.2.0",
+    "react-markdown": "^9.0.1",
+    "rehype-raw": "^7.0.0",
+    "swr": "^2.0.1",
+    "theme-ui": "^0.16.1"
+  },
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build"
+  },
+  "browserslist": [
+    "last 1 chrome version",
+    "last 1 firefox version",
+    "last 1 safari version"
+  ],
+  "devDependencies": {
+    "@types/node": "20.11.10",
+    "@types/react": "18.2.48",
+    "buffer": "^5.5.0",
+    "parcel": "^2.8.3",
+    "process": "^0.11.10",
+    "typescript": "5.3.3"
+  }
+}
